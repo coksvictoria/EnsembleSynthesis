@@ -7,7 +7,7 @@ Deep generative models are increasingly used in natural language processing and 
 ![alt text](DCEM.png)
 
 ## Availability and implementation
-Source code and data are available at [GitHub](https://github.com/coksvictoria/IDI_TabularDataSynthesis/)
+Source code and data are available at [GitHub](https://github.com/coksvictoria/EnsembleSynthesis)
 
 ### High-Level steps
 + Step 1. Get Data:
