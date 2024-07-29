@@ -1,0 +1,62 @@
+{
+    "adult": {
+        "categorical_columns": ["workclass", "education", "marital.status", "occupation", 
+		"relationship", "race", "sex", "native.country", "income"],
+        "mixed_columns": {"capital.gain": [0.0], "capital.loss": [0.0]},
+        "integer_columns": ["age", "education.num", "fnlwgt", "hours.per.week"],
+        "general_columns": [],
+        "problem_type": {"Classification": "income"}
+    },
+    "abalone": {
+        "categorical_columns": ["sex"],
+        "mixed_columns": {},
+        "integer_columns": ["rings"],
+        "general_columns": [],
+        "problem_type": {"Regression": "rings"}
+    },
+    "sick": {
+        "categorical_columns": ["sex",
+        "on_thyroxine",
+        "query_on_thyroxine",
+        "on_antithyroid_medication",
+        "sick",
+        "pregnant",
+        "thyroid_surgery",
+        "I131_treatment",
+        "query_hypothyroid",
+        "query_hyperthyroid",
+        "lithium",
+        "goitre",
+        "tumor",
+        "hypopituitary",
+        "psych",
+        "T3_measured",
+        "referral_source",
+        "class"],
+        "mixed_columns": {},
+        "integer_columns": [],
+        "general_columns": [],
+        "problem_type": {"Classification": "class"}
+    },
+    "beijing": {
+        "categorical_columns": [ "year",
+        "month",
+        "day",
+        "hour",
+        "cbwd"],
+        "mixed_columns": {},
+        "integer_columns": ["DEWP",
+        "TEMP",
+        "PRES",
+        "Iws",
+        "Is",
+        "Ir",
+        "year",
+        "month",
+        "day",
+        "hour",
+        "pm2.5"],
+        "general_columns": [],
+        "problem_type": {"Regression": "pm2.5"}
+    }
+}
