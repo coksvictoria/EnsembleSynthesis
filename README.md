@@ -24,5 +24,13 @@ Source code and data are available at [GitHub](https://github.com/coksvictoria/E
 ## Reference
 We appreciate your citations if you find this repository useful to your research!
 ```
-TBA
+@article{wang2025blending,
+  title={Blending is all you need: Data-centric ensemble synthetic data},
+  author={Wang, Alex X and Simpson, Colin R and Nguyen, Binh P},
+  journal={Information Sciences},
+  volume={691},
+  pages={121610},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
